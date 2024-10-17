@@ -1,14 +1,57 @@
 
 body{
     text-align: center;
-    margin: 50px 0px;
+    margin: 100px 5px;
+    margin-left: 0px;
+    margin-right: 0px;
     padding: 0px;
-    background-image: "geforce-ada-4090-web-og-1200x630";
-    background-repeat: no-repeat;
+    /* background-image: "geforce-ada-4090-web-og-1200x630"; */
+    /* background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; */
+    background-color: rgb(31, 106, 66)  ;
 
 }
+
+
+
+.geforce_gpu{
+
+  /* Full height */
+   
+  /* margin-left: 0px;
+  margin-right: 0px; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+/* /* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* .wrapper{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.geforce_gpu{
+    
+    width: 300px;
+    height: 100px;
+    /* Center and scale the image nicely */
+    /* background-image: url(c:\Users\AMRO\Documents\GitHub\CIS-201\Project20241\src\img\geforcre_gpu.jpg); */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    /* }   */
 
 
 table , th ,td{
@@ -57,19 +100,28 @@ h2{
 }
 
 label{
-    color: darkgreen;
+    color: rgb(31, 106, 66);
 
 }
 
 form{
-    background-color: blueviolet;
+    background-color: black;
 }
 
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: black;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    z-index: 1000; /* Ensures the navbar is on top of other elements */
+    
   }
   
   /* Style the links inside the navigation bar */
