@@ -1,9 +1,7 @@
 
 body{
     text-align: center;
-    margin: 100px 5px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 100px 0px 5px 0px;
     padding: 0px;
     /* background-image: "geforce-ada-4090-web-og-1200x630"; */
     /* background-repeat: no-repeat;
@@ -23,35 +21,22 @@ body{
   margin-right: 0px; */
 
   /* Center and scale the image nicely */
+  height: 1000px;
+  width: 1000px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 
-
-
-
-/* /* *{
+*{
     margin: 0;
     padding: 0;
-} */
-
-/* .wrapper{
-    margin: 0 auto;
-    width: 1000px;
 }
 
-.geforce_gpu{
-    
-    width: 300px;
-    height: 100px;
-    /* Center and scale the image nicely */
-    /* background-image: url(c:\Users\AMRO\Documents\GitHub\CIS-201\Project20241\src\img\geforcre_gpu.jpg); */
-    /* background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
-    /* }   */
+
+
+
 
 
 table , th ,td{
