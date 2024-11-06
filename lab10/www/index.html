@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java script practice = lab10</title>
+</head>
+<body>
+
+    <script>
+
+        var name;
+        function AskName(){
+            name = prompt("Enter your name", " ");
+
+            if(name == "Amro" || name == "amro" || name == "Amr" || name == "amr"){
+                document.write("Welcome to our website");
+                document.write(
+                    "<ul>" + 
+                        "<li>" + "Web design developer " + "</li>" +
+                        "<li>" + "HTML 5" + "</li>" +
+                        "<li>" + "CSS " + "</li>" + 
+                        "<li>" + "JS " + "</li>" + 
+                    "</ul>")
+            }
+
+            else{
+                window.alert("Go Away!");
+                console.log();
+            }
+            
+        }
+
+        AskName();
+        document.write(name);
+        
+
+    </script>
+
+
+    
+</body>
+</html>
